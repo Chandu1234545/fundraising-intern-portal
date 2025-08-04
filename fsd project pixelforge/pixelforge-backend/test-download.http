@@ -1,0 +1,2 @@
+### View/download uploaded file
+GET http://localhost:5000/api/documents/file/1753798706889-resume.pdf

@@ -1,0 +1,11 @@
+### Upload document to a project
+POST http://localhost:5000/api/documents/6888cd3b07b4af54e301ef72
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjg4OGMxNTUwNWRmMDU5MDQ0NGY3ZTMxIiwicm9sZSI6ImFkbWluIn0sImlhdCI6MTc1Mzc5ODY4MywiZXhwIjoxNzUzODAyMjgzfQ.CLYWlFoYl2cf49CaKs0zVgcGYor3o310voJ9BWHj4eA
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="resume.pdf"
+Content-Type: application/pdf
+
+< ./resume.pdf
+------WebKitFormBoundary7MA4YWxkTrZu0gW--

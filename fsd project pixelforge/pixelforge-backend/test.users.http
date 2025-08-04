@@ -1,0 +1,4 @@
+### Get user info
+GET http://localhost:5000/api/users/me
+curl -X GET http://localhost:5000/api/users/me -H "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjg4OGMxNTUwNWRmMDU5MDQ0NGY3ZTMxIiwicm9sZSI6ImFkbWluIn0sImlhdCI6MTc1Mzc5NDc2MCwiZXhwIjoxNzUzNzk4MzYwfQ.moikvBzYzoWqPD3XtzmX2LpN8JMYDXiJ-tRE8ZtBvgE
+
